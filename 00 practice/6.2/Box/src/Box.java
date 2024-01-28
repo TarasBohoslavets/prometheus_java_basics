@@ -23,4 +23,17 @@ public class Box {
         this.y = y;
         this.z = z;
     }
+
+    public long getVolume () {
+        return x * y * z;
+    }
+
+    public long getVolume ( int x, int y, int z ) {
+        x =100;
+        y =200;
+        z =300;
+        return x * y * z;
+    }
+
+
 }
